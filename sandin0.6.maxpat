@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 407.0, 87.0, 1479.0, 959.0 ],
+		"rect" : [ 407.0, 87.0, 1442.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,6 +45,72 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"id" : "obj-13",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "osc.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 729.999965906143302, 442.799999880790665, 284.0, 88.0 ],
+					"varname" : "comparator[3]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 2,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-12",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "sync-generator.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_gl_texture" ],
+					"patching_rect" : [ 719.999965906143302, 710.900010967254616, 284.0, 88.0 ],
+					"varname" : "comparator[2]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 2,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-11",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "color-encoder.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_gl_texture" ],
+					"patching_rect" : [ 729.999965906143302, 334.799999880790665, 284.0, 88.0 ],
+					"varname" : "comparator[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 2,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-7",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -54,61 +120,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 856.999965906143188, 196.5, 284.0, 88.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 79.0, 473.0, 150.0, 20.0 ],
-					"text" : "NOT PORTED",
-					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 2,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-13",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "data-flow.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.833335439363964, 519.90001096725473, 284.0, 88.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 2,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-5",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "sync-generator.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 9.999965906143302, 708.5, 284.0, 88.0 ],
+					"patching_rect" : [ 684.999965906143188, 190.5, 284.0, 88.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -254,7 +266,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 717.833335439363964, 560.900010967254616, 284.0, 88.0 ],
+					"patching_rect" : [ 723.833335439363964, 595.900010967254616, 284.0, 88.0 ],
 					"varname" : "adder-multiplier",
 					"viewvisibility" : 1
 				}
@@ -296,27 +308,6 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1024.958332657813571, 560.666675806045532, 284.0, 88.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 2,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-41",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "osc.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 9.999965906143302, 804.133348155021622, 284.0, 88.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -435,27 +426,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-34",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "color-encoder.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 9.833335439363964, 614.466679263114884, 284.0, 88.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 2,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
 					"id" : "obj-28",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -465,30 +435,46 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 473.500002423922183, 222.500011801719666, 284.0, 88.0 ],
+					"patching_rect" : [ 383.999965906143302, 293.500011801719666, 284.0, 88.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
 , 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 432.0, 309.0, 505.0 ]
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
  ],
-		"lines" : [  ],
 		"parameters" : 		{
-			"obj-34::obj-39" : [ "live.dial[31]", "V", 0 ],
-			"obj-34::obj-52" : [ "live.dial[33]", "V", 0 ],
-			"obj-34::obj-72" : [ "live.dial[34]", "V", 0 ],
-			"obj-34::obj-75" : [ "live.dial[32]", "V", 0 ],
-			"obj-34::obj-94" : [ "live.dial[35]", "V", 0 ],
-			"obj-34::obj-97" : [ "live.dial[37]", "V", 0 ],
+			"obj-11::obj-17" : [ "flonum[3]", "flonum[2]", 0 ],
+			"obj-11::obj-26" : [ "flonum[4]", "flonum[1]", 0 ],
+			"obj-11::obj-28" : [ "umenu[2]", "umenu[2]", 0 ],
+			"obj-11::obj-33" : [ "umenu[1]", "umenu[1]", 0 ],
+			"obj-11::obj-38" : [ "umenu[5]", "umenu", 0 ],
+			"obj-11::obj-39" : [ "live.dial[31]", "V", 0 ],
+			"obj-11::obj-45" : [ "flonum[5]", "flonum", 0 ],
+			"obj-11::obj-52" : [ "live.dial[33]", "V", 0 ],
+			"obj-11::obj-75" : [ "live.dial[32]", "V", 0 ],
+			"obj-12::obj-10" : [ "live.dial[30]", "V", 0 ],
+			"obj-12::obj-47" : [ "live.dial[22]", "V", 0 ],
+			"obj-12::obj-48" : [ "live.dial[27]", "V", 0 ],
+			"obj-12::obj-53" : [ "live.dial[29]", "V", 0 ],
+			"obj-12::obj-54" : [ "live.dial[34]", "V", 0 ],
+			"obj-13::obj-10" : [ "live.dial[35]", "V", 0 ],
+			"obj-13::obj-88" : [ "live.dial[3]", "V", 0 ],
+			"obj-2::obj-1" : [ "live.dial[20]", "V", 0 ],
+			"obj-2::obj-8" : [ "live.dial[21]", "V", 0 ],
 			"obj-35::obj-2" : [ "live.dial[11]", "V", 0 ],
 			"obj-35::obj-5" : [ "live.dial[24]", "V", 0 ],
 			"obj-35::obj-8" : [ "live.dial[2]", "V", 0 ],
@@ -504,46 +490,45 @@
 			"obj-38::obj-96" : [ "live.dial[18]", "V", 0 ],
 			"obj-39::obj-10" : [ "live.dial[25]", "V", 0 ],
 			"obj-40::obj-1" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-40::obj-16" : [ "live.dial[22]", "V", 0 ],
-			"obj-40::obj-18" : [ "live.dial[10]", "V", 0 ],
-			"obj-40::obj-9" : [ "live.dial[20]", "V", 0 ],
-			"obj-41::obj-10" : [ "live.dial[23]", "V", 0 ],
-			"obj-41::obj-12" : [ "live.dial[1]", "V", 0 ],
+			"obj-40::obj-16" : [ "live.dial[9]", "V", 0 ],
+			"obj-40::obj-18" : [ "live.dial[19]", "V", 0 ],
+			"obj-40::obj-9" : [ "live.dial[1]", "V", 0 ],
 			"obj-42::obj-6" : [ "live.toggle[2]", "live.toggle[1]", 0 ],
-			"obj-5::obj-10" : [ "live.dial[42]", "V", 0 ],
-			"obj-5::obj-47" : [ "live.dial[21]", "V", 0 ],
-			"obj-5::obj-48" : [ "live.dial[27]", "V", 0 ],
-			"obj-5::obj-52" : [ "live.dial[28]", "V", 0 ],
-			"obj-5::obj-53" : [ "live.dial[29]", "V", 0 ],
-			"obj-5::obj-54" : [ "live.dial[30]", "V", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-34::obj-39" : 				{
-					"parameter_longname" : "live.dial[31]",
-					"parameter_shortname" : "V"
+				"obj-11::obj-39" : 				{
+					"parameter_longname" : "live.dial[31]"
 				}
 ,
-				"obj-34::obj-52" : 				{
-					"parameter_longname" : "live.dial[33]"
+				"obj-12::obj-10" : 				{
+					"parameter_longname" : "live.dial[30]"
 				}
 ,
-				"obj-34::obj-72" : 				{
+				"obj-12::obj-47" : 				{
+					"parameter_longname" : "live.dial[22]"
+				}
+,
+				"obj-12::obj-54" : 				{
 					"parameter_longname" : "live.dial[34]"
 				}
 ,
-				"obj-34::obj-75" : 				{
-					"parameter_longname" : "live.dial[32]"
-				}
-,
-				"obj-34::obj-94" : 				{
+				"obj-13::obj-10" : 				{
 					"parameter_longname" : "live.dial[35]"
 				}
 ,
-				"obj-34::obj-97" : 				{
-					"parameter_longname" : "live.dial[37]"
+				"obj-13::obj-88" : 				{
+					"parameter_longname" : "live.dial[3]"
+				}
+,
+				"obj-2::obj-1" : 				{
+					"parameter_longname" : "live.dial[20]"
+				}
+,
+				"obj-2::obj-8" : 				{
+					"parameter_longname" : "live.dial[21]"
 				}
 ,
 				"obj-35::obj-5" : 				{
@@ -594,33 +579,16 @@
 					"parameter_longname" : "live.dial[25]"
 				}
 ,
-				"obj-40::obj-1" : 				{
-					"parameter_longname" : "live.toggle",
-					"parameter_shortname" : "live.toggle"
-				}
-,
 				"obj-40::obj-16" : 				{
-					"parameter_longname" : "live.dial[22]"
+					"parameter_longname" : "live.dial[9]"
 				}
 ,
 				"obj-40::obj-18" : 				{
-					"parameter_longname" : "live.dial[10]"
-				}
-,
-				"obj-40::obj-9" : 				{
-					"parameter_longname" : "live.dial[20]"
-				}
-,
-				"obj-41::obj-10" : 				{
-					"parameter_longname" : "live.dial[23]"
+					"parameter_longname" : "live.dial[19]"
 				}
 ,
 				"obj-42::obj-6" : 				{
 					"parameter_longname" : "live.toggle[2]"
-				}
-,
-				"obj-5::obj-10" : 				{
-					"parameter_longname" : "live.dial[42]"
 				}
 
 			}
@@ -630,28 +598,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camera.maxpat",
-				"bootpath" : "~/Documents/work/amanda/sandin-gl",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "color-encoder.maxpat",
-				"bootpath" : "~/Documents/work/amanda/sandin-amanda",
-				"patcherrelativepath" : "../sandin-amanda",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "function-generator.maxpat",
-				"bootpath" : "~/Documents/work/amanda/sandin-gl",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "differentiator.maxpat",
-				"bootpath" : "~/Documents/work/amanda/sandin-gl",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -659,20 +620,20 @@
 , 			{
 				"name" : "brcosa.genjit",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
-				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "value-scrambler-amplitude-classifier.maxpat",
-				"bootpath" : "~/Documents/work/amanda/sandin-gl",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comparator.maxpat",
-				"bootpath" : "~/Documents/work/amanda/sandin-gl",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -680,48 +641,55 @@
 , 			{
 				"name" : "bfg.maxpat",
 				"bootpath" : "~/Documents/work/amanda/sandin",
-				"patcherrelativepath" : "../sandin",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "osc.maxpat",
-				"bootpath" : "~/Documents/work/amanda/sandin-amanda",
-				"patcherrelativepath" : "../sandin-amanda",
+				"patcherrelativepath" : "../../sandin",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monitor.maxpat",
-				"bootpath" : "~/Documents/work/amanda/sandin-gl",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "adder-multiplier.maxpat",
-				"bootpath" : "~/Documents/work/amanda/sandin-gl",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "video-player.maxpat",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "color-encoder.maxpat",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sync-generator.maxpat",
-				"bootpath" : "~/Documents/work/amanda/sandin-amanda",
-				"patcherrelativepath" : "../sandin-amanda",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "data-flow.maxpat",
-				"bootpath" : "~/Documents/work/amanda/sandin-amanda",
-				"patcherrelativepath" : "../sandin-amanda",
-				"type" : "JSON",
+				"name" : "sprinkle.genjit",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "video-player.maxpat",
-				"bootpath" : "~/Documents/work/amanda/sandin-gl",
+				"name" : "osc.maxpat",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -767,8 +735,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
