@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 259.0, 120.0, 1021.0, 718.0 ],
+		"rect" : [ 572.0, 278.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,7 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-7",
+					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "jit.gen",
-						"rect" : [ 0.0, 0.0, 600.0, 450.0 ],
+						"rect" : [ 59.0, 81.0, 600.0, 450.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -156,46 +156,32 @@
  ]
 					}
 ,
-					"patching_rect" : [ 156.5, 264.0, 49.0, 22.0 ],
+					"patching_rect" : [ 76.0, 297.0, 49.0, 22.0 ],
 					"text" : "jit.gl.pix"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-9",
-					"linecount" : 3,
-					"maxclass" : "comment",
+					"id" : "obj-13",
+					"maxclass" : "live.dial",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 258.0, 322.0, 150.0, 47.0 ],
-					"text" : "this patch uses premade jitter object see jit.sobel helpfile for more info"
-				}
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 79.0, 33.0, 27.0, 39.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "V",
+							"parameter_shortname" : "V",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
+						}
 
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"linecount" : 8,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 439.0, 340.0, 345.0, 127.0 ],
-					"text" : "Differentiator - this module generates an\noutput signal based on the rate of change of the\ninput signal. Six inputs with progressively larger\ntime constants, respond to the edge rates of the\ninput source. The shorter time constants respond to\nsharp horizontal edges, the larger time constants\nrespond to softer edges\n\n"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autofit" : 1,
-					"forceaspect" : 1,
-					"id" : "obj-6",
-					"maxclass" : "fpic",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 439.0, 12.781413612565444, 658.0, 295.410994764397913 ],
-					"pic" : "/Users/ma/Documents/2021/sandin research/Screen Shot 2021-04-11 at 9.44.20 PM.png"
+					}
+,
+					"shownumber" : 0,
+					"varname" : "live.dial"
 				}
 
 			}
@@ -203,12 +189,59 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.741176470588235, 0.125490196078431, 0.23921568627451, 1.0 ],
-					"id" : "obj-5",
+					"id" : "obj-12",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.5, -21.0, 14.0, 29.0 ],
+					"patching_rect" : [ 267.5, -21.0, 14.0, 29.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-11",
+					"index" : 2,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 220.0, 163.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2.5, 91.0, 366.0, 5.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 288.0, -3.5, 5.0, 100.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.741176470588235, 0.125490196078431, 0.23921568627451, 1.0 ],
+					"id" : "obj-33",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2.5, -20.0, 14.0, 29.0 ],
 					"proportion" : 0.5
 				}
 
@@ -222,125 +255,51 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.5, 78.0, 14.0, 29.0 ],
+					"patching_rect" : [ 2.5, 79.0, 14.0, 29.0 ],
 					"proportion" : 0.5
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"linecount" : 2,
+					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 94.0, 35.0, 150.0, 33.0 ],
-					"text" : "DIFFERENTIATOR\n(LINE EXTRACTION)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "live.dial",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 43.0, 29.0, 27.0, 39.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_linknames" : 1,
-							"parameter_longname" : "live.dial[7]",
-							"parameter_shortname" : "V",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
-						}
-
-					}
-,
-					"shownumber" : 0,
-					"varname" : "live.dial[2]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 132.0, 97.0, 22.0 ],
-					"text" : "scale 0 128 0. 1."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 166.0, 59.0, 22.0 ],
-					"text" : "thresh $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 63.0, 174.0, 71.0, 22.0 ],
-					"text" : "jit.rgb2luma"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-32",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 115.0, 219.0, 174.0, 22.0 ],
-					"text" : "jit.sobel @mode 0 @thresh 0.5"
+					"patching_rect" : [ 156.0, 36.5, 150.0, 20.0 ],
+					"text" : "EMPTY"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"comment" : "",
-					"id" : "obj-36",
+					"id" : "obj-19",
 					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 124.0, 30.0, 30.0 ]
+					"patching_rect" : [ 52.0, 163.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"comment" : "",
-					"id" : "obj-38",
+					"id" : "obj-21",
 					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 166.0, 328.0, 30.0, 30.0 ]
+					"patching_rect" : [ 52.0, 352.0, 30.0, 30.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -348,43 +307,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
-					"source" : [ "obj-7", 0 ]
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
