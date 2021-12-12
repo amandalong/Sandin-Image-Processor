@@ -8,7 +8,7 @@ https://docs.google.com/document/d/1lrOtApNmYl388JM3hzE5PaHV6QDmzjfDE9AeuO1j-TI/
 
 This project investigates the analog Sandin Image Processor 1971-73 using media archeology “zombie” art methodology to examine the concept of ‘obsolete’ or ‘dead’ media to find sustainable, socially equitable art and design solutions. Garnet Hertz and Jussi Parikka state zombie media “is concerned with media that is not only out of use, but resurrected to new uses, contexts and adaptations.”  The media archeological process of revivifying becomes a reclamation of epistemological space - a space and a place in which the gadget opens up and the way it works becomes familiar and allows the machine to become your toy, your game, your invention. The original-copy, old-new, average-deviant, analog-digital - these binary dialectics are artificial divisions in media archeology. Analog patches have evolved into programs called MaxMsp/Jitter. As a work in progress, opening the black box of image processing techniques through remaking the Sandin Image Processor opened the history of the development of computer vision. 
 
-INSTALLATION 
+**INSTALLATION **
 
 The analog Sandin Image Processor was recreated using Max/MSP software https://cycling74.com/downloads (min. requirement Max 8). The free version will allow to run and modify the Sandin app but no changes will be saved. 
 
@@ -21,3 +21,13 @@ BLUE - second video signal for mixing
 VIDEO PLAYER, CAMERA and OSC will generate video signals. All other modules are effects, i.e. require a video ingal input. To see the image a video signal has to be connected to MONITOR. 
 
 To connect modules together open the app, unulock it (padlock icon bottom left or CMD + E), click an output (bottom of the module) and drag the cord to an input (top of the module). An example configuration: CAMERA -> FUNCTION GENERATOR -> MONITOR. The modules can be chained to create more complicated array of effects. 
+
+**Build Your Own Module**
+
+For the Sandin patch you can make your own module from an empty module. 
+To make a new one: 
+Open empty.maxpat and Save as... new module name. 
+Go to main sandin patch click on the empty module and open inspector (apple+i) near the bottom there is a parameter called "patcher file" 
+Replace it with your new patch module.
+Every time you save your new patch, even if it's in another window, the bpatcher in the main sandin window will update.
+Check out Sandin's Distribution Religion for more on analog computers and the modules. http://www.criticalartware.net/DistributionReligion/DistributionReligion.pdf 
