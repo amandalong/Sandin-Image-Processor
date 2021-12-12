@@ -18,7 +18,7 @@ RED - video signal
 GREEN - oscillator signal (for automatically controlling knob values)
 BLUE - second video signal for mixing 
 
-VIDEO PLAYER, CAMERA and OSC will generate video signals. All other modules are effects, i.e. require a video ingal input. To see the image a video signal has to be connected to MONITOR. 
+VIDEO PLAYER, CAMERA and OSC will generate video signals. All other modules are effects, i.e. require a video signal input. To see the image a video signal has to be connected to MONITOR. 
 
 To connect modules together open the app, unulock it (padlock icon bottom left or CMD + E), click an output (bottom of the module) and drag the cord to an input (top of the module). An example configuration: CAMERA -> FUNCTION GENERATOR -> MONITOR. The modules can be chained to create more complicated array of effects. 
 
