@@ -36,4 +36,4 @@ Right click on the module when the patch is unlocked, select "object", open orig
 
 Every time you save your new patch, even if it's in another window, the bpatcher in the main sandin window will update.
 
-Check out Sandin's Distribution Religion for more on analog computers and the modules. http://www.criticalartware.net/DistributionReligion/DistributionReligion.pdf 
+Check out Sandin's Distribution Religion for the Analog Image Processor to learn more about the modules. http://www.criticalartware.net/DistributionReligion/DistributionReligion.pdf 
