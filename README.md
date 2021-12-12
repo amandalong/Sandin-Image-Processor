@@ -27,7 +27,11 @@ To connect modules together open the app, unulock it (padlock icon bottom left o
 For the Sandin patch you can make your own module from an empty module. 
 To make a new one: 
 Open empty.maxpat and Save as... new module name. 
+
 Go to main sandin patch click on the empty module and open inspector (apple+i) near the bottom there is a parameter called "patcher file" 
+
 Replace it with your new patch module.
+
 Every time you save your new patch, even if it's in another window, the bpatcher in the main sandin window will update.
+
 Check out Sandin's Distribution Religion for more on analog computers and the modules. http://www.criticalartware.net/DistributionReligion/DistributionReligion.pdf 
