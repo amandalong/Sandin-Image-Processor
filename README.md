@@ -32,6 +32,8 @@ Go to main sandin patch click on the empty module and open inspector (apple+i) n
 
 Replace it with your new patch module.
 
+Right click on the module ehen the patch is unlocked, select "object", open original 
+
 Every time you save your new patch, even if it's in another window, the bpatcher in the main sandin window will update.
 
 Check out Sandin's Distribution Religion for more on analog computers and the modules. http://www.criticalartware.net/DistributionReligion/DistributionReligion.pdf 
