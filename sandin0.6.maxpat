@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 10,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 135.0, 56.0, 1147.0, 959.0 ],
+		"rect" : [ 698.0, 87.0, 1147.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 48.0,
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 70.5, 539.0, 246.0, 69.0 ],
+					"text" : "🔓 cmd + e"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 2,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -47,6 +59,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "empty.maxpat",
 					"numinlets" : 2,
@@ -68,6 +81,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-13",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "osc.maxpat",
 					"numinlets" : 1,
@@ -89,6 +103,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-12",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sync-generator.maxpat",
 					"numinlets" : 1,
@@ -110,6 +125,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-11",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "color-encoder.maxpat",
 					"numinlets" : 1,
@@ -131,6 +147,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-7",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "video-player.maxpat",
 					"numinlets" : 0,
@@ -276,6 +293,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "adder-multiplier.maxpat",
 					"numinlets" : 2,
@@ -297,11 +315,13 @@
 					"enablevscroll" : 0,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "empty.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 1514.333334922790527, 556.274931018660027, 284.0, 88.0 ],
 					"viewvisibility" : 1
 				}
@@ -316,6 +336,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-42",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "monitor.maxpat",
 					"numinlets" : 1,
@@ -335,6 +356,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-40",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bfg.maxpat",
 					"numinlets" : 1,
@@ -355,6 +377,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-39",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "comparator.maxpat",
 					"numinlets" : 2,
@@ -376,6 +399,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-38",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "value-scrambler-amplitude-classifier.maxpat",
 					"numinlets" : 1,
@@ -396,6 +420,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-37",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "differentiator.maxpat",
 					"numinlets" : 1,
@@ -417,6 +442,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-35",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "function-generator.maxpat",
 					"numinlets" : 4,
@@ -437,6 +463,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-28",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "camera.maxpat",
 					"numinlets" : 0,
@@ -467,6 +494,7 @@
 			"obj-12::obj-54" : [ "live.dial[34]", "V", 0 ],
 			"obj-13::obj-10" : [ "live.dial[35]", "V", 0 ],
 			"obj-13::obj-88" : [ "live.dial[3]", "V", 0 ],
+			"obj-1::obj-13" : [ "V", "V", 0 ],
 			"obj-2::obj-1" : [ "live.dial[20]", "V", 0 ],
 			"obj-2::obj-8" : [ "live.dial[21]", "V", 0 ],
 			"obj-35::obj-2" : [ "live.dial[11]", "V", 0 ],
@@ -487,7 +515,7 @@
 			"obj-40::obj-18" : [ "live.dial[19]", "V", 0 ],
 			"obj-40::obj-9" : [ "live.dial[1]", "V", 0 ],
 			"obj-42::obj-6" : [ "live.toggle[2]", "live.toggle[1]", 0 ],
-			"obj-5::obj-13" : [ "V", "V", 0 ],
+			"obj-5::obj-13" : [ "V[1]", "V", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -580,6 +608,10 @@
 				"obj-42::obj-6" : 				{
 					"parameter_longname" : "live.toggle[2]"
 				}
+,
+				"obj-5::obj-13" : 				{
+					"parameter_longname" : "V[1]"
+				}
 
 			}
 ,
@@ -588,35 +620,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camera.maxpat",
-				"bootpath" : "~/Documents/GitHub/Sandin",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "function-generator.maxpat",
-				"bootpath" : "~/Documents/GitHub/Sandin",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "differentiator.maxpat",
-				"bootpath" : "~/Documents/GitHub/Sandin",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "value-scrambler-amplitude-classifier.maxpat",
-				"bootpath" : "~/Documents/GitHub/Sandin",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comparator.maxpat",
-				"bootpath" : "~/Documents/GitHub/Sandin",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -624,20 +656,27 @@
 , 			{
 				"name" : "bfg.maxpat",
 				"bootpath" : "~/Documents/work/amanda/sandin",
-				"patcherrelativepath" : "../../work/amanda/sandin",
+				"patcherrelativepath" : "../../sandin",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monitor.maxpat",
-				"bootpath" : "~/Documents/GitHub/Sandin",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "empty.maxpat",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "adder-multiplier.maxpat",
-				"bootpath" : "~/Documents/GitHub/Sandin",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -645,27 +684,27 @@
 , 			{
 				"name" : "brcosa.genjit",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
-				"patcherrelativepath" : "../../../Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "video-player.maxpat",
-				"bootpath" : "~/Documents/GitHub/Sandin",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color-encoder.maxpat",
-				"bootpath" : "~/Documents/GitHub/Sandin",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sync-generator.maxpat",
-				"bootpath" : "~/Documents/GitHub/Sandin",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -673,20 +712,13 @@
 , 			{
 				"name" : "sprinkle.genjit",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
-				"patcherrelativepath" : "../../../Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "osc.maxpat",
-				"bootpath" : "~/Documents/GitHub/Sandin",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "empty.maxpat",
-				"bootpath" : "~/Documents/GitHub/Sandin",
+				"bootpath" : "~/Documents/work/amanda/sandin-gl/Sandin",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
