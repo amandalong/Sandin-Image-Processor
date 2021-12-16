@@ -12,6 +12,8 @@ This project investigates the analog Sandin Image Processor 1971-73 using media 
 
 The analog Sandin Image Processor was recreated using Max/MSP software https://cycling74.com/downloads (min. requirement Max 8). The free version will allow to run and modify the Sandin app but no changes will be saved. 
 
+Download the zip file. Unzip and open the sandin0.6.maxpat in the folder. 
+
 The following color codes are used for all the modules inputs and outputs: 
 
 RED - video signal 
