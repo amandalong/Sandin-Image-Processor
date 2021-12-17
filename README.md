@@ -39,3 +39,7 @@ Right click on the module when the patch is unlocked, select "object", open orig
 Every time you save your new patch, even if it's in another window, the bpatcher in the main sandin window will update.
 
 Check out Sandin's Distribution Religion for the Analog Image Processor to learn more about the modules. http://www.criticalartware.net/DistributionReligion/DistributionReligion.pdf 
+
+**OSCILLATOR and Audio Status**
+If the OSCILLATOR does not "generate" go to Options - then select Audio Status. Make sure there is an input and output device set and the CPU is On (blue). 
+
