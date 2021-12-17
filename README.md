@@ -43,5 +43,6 @@ Check out Sandin's Distribution Religion for the Analog Image Processor to learn
 **OSCILLATOR and Audio Status**
 
 If the OSCILLATOR does not "generate" go to Options - then select Audio Status. 
-Make sure there is an input and output device set and the CPU is On (blue). 
+In the Audio Status set up make sure there is an input and output device set and the CPU is On (blue). 
+When you return to the patch turn on the audio in the botton right hand corner, when on the audio button will turn blue too.
 
