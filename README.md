@@ -8,6 +8,14 @@ https://docs.google.com/document/d/1lrOtApNmYl388JM3hzE5PaHV6QDmzjfDE9AeuO1j-TI/
 
 This project investigates the analog Sandin Image Processor 1971-73 using media archeology “zombie” art methodology to examine the concept of ‘obsolete’ or ‘dead’ media to find sustainable, socially equitable art and design solutions. Garnet Hertz and Jussi Parikka state zombie media “is concerned with media that is not only out of use, but resurrected to new uses, contexts and adaptations.”  The media archeological process of revivifying becomes a reclamation of epistemological space - a space and a place in which the gadget opens up and the way it works becomes familiar and allows the machine to become your toy, your game, your invention. The original-copy, old-new, average-deviant, analog-digital - these binary dialectics are artificial divisions in media archeology. Analog patches have evolved into programs called MaxMsp/Jitter. As a work in progress, opening the black box of image processing techniques through remaking the Sandin Image Processor leads to the history of the development of computer vision. 
 
+Distribution Religion
+
+"First, it's okay to copy! Believe in the process -.of copying as much as
+you can ; with all your heart is a good place to start-get into it as
+straight and honestly as possible . Copying is as good (Ithink better
+from this vector-view) as any other way of getting 'there' .
+-Phil Morton
+
 **INSTALLATION **
 
 The analog Sandin Image Processor was recreated using Max/MSP software https://cycling74.com/downloads (min. requirement Max 8). The free version will allow to run and modify the Sandin app but no changes will be saved. 
