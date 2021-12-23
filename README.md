@@ -1,14 +1,13 @@
 # Sandin Image Processor
-Digital representation of Sandin Image Processor in Max/MSP
+Digital representation of Sandin Image Processor in MaxMSPJitter
 
 Watch the video "5 Minute Romp thru the IP" excerpt 3:52 min (1973) for inspiration.
 https://www.youtube.com/watch?v=8qh6jRzjmcY
 
 _Comparator module example_                                                   
-![preview](https://github.com/amandalong/amandalong/blob/bef47b979299c6d7cbb3d1af99ad77987f98bbdc/Images/Comparator.png)
+![preview](https://github.com/amandalong/amandalong/blob/bef47b979299c6d7cbb3d1af99ad77987f98bbdc/Images/Comparator.png) 
 
-
-Welcome to the wonderful world of patching. The digital Sandin Max/MSP/Jitter patch is inspired by the analog modular video synthesizer by physicist, artist, and educator Dan Sandin. This patch remakes the invention in a program that mimics modules and patch cables. It celebrates the freedom of the IP in terms of the intellectual property too which Sandin firmly believes should be shared with the public. To learn more history, visit the dossier.
+Welcome to the wonderful world of patching. The digital Sandin MaxMSPJitter patch is inspired by the analog modular video synthesizer by the nuclear physicist, artist, and educator Dan Sandin. This patch remakes the invention in a program that mimics modules and patch cables. It celebrates the freedom of the IP in terms of the intellectual property too which Sandin firmly believes should be shared with the public. To learn more history, visit the dossier.
 https://docs.google.com/document/d/1lrOtApNmYl388JM3hzE5PaHV6QDmzjfDE9AeuO1j-TI/edit?usp=sharing
 
 This project investigates the analog Sandin Image Processor 1971-73 using media archeology “zombie” art methodology to examine the concept of ‘obsolete’ or ‘dead’ media to find sustainable, socially equitable art and design solutions. Garnet Hertz and Jussi Parikka state zombie media “is concerned with media that is not only out of use, but resurrected to new uses, contexts and adaptations.”  The media archeological process of revivifying becomes a reclamation of epistemological space - a space and a place in which the gadget opens up and the way it works becomes familiar and allows the machine to become your toy, your game, your invention. The original-copy, old-new, average-deviant, analog-digital - these binary dialectics are artificial divisions in media archeology. What does it mean to remake the analog patches digitally? MaxMSPJitter comes closest to the experience. As a work in progress remaking the Sandin Image Processor opens the black box of image processing techniques leading to the history of the development of computer vision and to the "distribution religion" a part of the open source movement philosophy. 
@@ -23,7 +22,7 @@ from this vector-view) as any other way of getting 'there' ."
 
 **INSTALLATION **
 
-The analog Sandin Image Processor was recreated using Max/MSP software https://cycling74.com/downloads (min. requirement Max 8). The free version will allow to run and modify the Sandin app but no changes will be saved. A webcam should be attached.
+The analog Sandin Image Processor was recreated using MaxMSPJitter software https://cycling74.com/downloads (min. requirement Max 8). The free version will allow to run and modify the Sandin app but no changes will be saved. A webcam should be attached.
 
 Download the zip file. Unzip and open the sandin0.6.maxpat in the folder. 
 
