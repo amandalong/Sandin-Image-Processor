@@ -1,7 +1,12 @@
 # Sandin Image Processor
 Digital representation of Sandin Image Processor in Max/MSP
 
-Watch the video "5 Minute Romp thru the IP" excerpt 3:52 min (1973) for inspiration. https://www.youtube.com/watch?v=8qh6jRzjmcY
+Watch the video "5 Minute Romp thru the IP" excerpt 3:52 min (1973) for inspiration.
+https://www.youtube.com/watch?v=8qh6jRzjmcY
+
+
+_Comparator module example_ ![preview](https://github.com/amandalong/amandalong/blob/bef47b979299c6d7cbb3d1af99ad77987f98bbdc/Images/Comparator.png)
+
 
 Welcome to the wonderful world of patching. The digital Sandin Max/MSP/Jitter patch is inspired by the analog modular video synthesizer by physicist, artist, and educator Dan Sandin. This patch remakes the invention in a program that mimics modules and patch cables. It celebrates the freedom of the IP in terms of the intellectual property too which Sandin firmly believes should be shared with the public. To learn more history, visit the dossier.
 https://docs.google.com/document/d/1lrOtApNmYl388JM3hzE5PaHV6QDmzjfDE9AeuO1j-TI/edit?usp=sharing
@@ -54,3 +59,5 @@ If the OSCILLATOR does not "generate" go to Options - then select Audio Status.
 In the Audio Status set up make sure there is an input and output device set and the CPU is On (blue). 
 When you return to the patch turn on the audio in the botton right hand corner, click on - the audio button will turn blue too.
 Now the OSC will generate signals when connected directly to the monitor; or when connected to other modules via the green input for automatized image processing. 
+
+
