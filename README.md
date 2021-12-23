@@ -18,7 +18,7 @@ from this vector-view) as any other way of getting 'there' .
 
 **INSTALLATION **
 
-The analog Sandin Image Processor was recreated using Max/MSP software https://cycling74.com/downloads (min. requirement Max 8). The free version will allow to run and modify the Sandin app but no changes will be saved. 
+The analog Sandin Image Processor was recreated using Max/MSP software https://cycling74.com/downloads (min. requirement Max 8). The free version will allow to run and modify the Sandin app but no changes will be saved. A webcam should be attached.
 
 Download the zip file. Unzip and open the sandin0.6.maxpat in the folder. 
 
