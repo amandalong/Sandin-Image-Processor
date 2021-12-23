@@ -10,10 +10,10 @@ This project investigates the analog Sandin Image Processor 1971-73 using media 
 
 **Distribution Religion**
 
-"First, it's okay to copy! Believe in the process -.of copying as much as
-you can ; with all your heart is a good place to start-get into it as
-straight and honestly as possible . Copying is as good (Ithink better
-from this vector-view) as any other way of getting 'there' .
+"First, it's okay to copy! Believe in the process of copying as much as
+you can; with all your heart is a good place to start-get into it as
+straight and honestly as possible . Copying is as good (I think better
+from this vector-view) as any other way of getting 'there' ."
 -Phil Morton
 
 **INSTALLATION **
