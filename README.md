@@ -5,7 +5,8 @@ Watch the video "5 Minute Romp thru the IP" excerpt 3:52 min (1973) for inspirat
 https://www.youtube.com/watch?v=8qh6jRzjmcY
 
 
-_Comparator module example_ ![preview](https://github.com/amandalong/amandalong/blob/bef47b979299c6d7cbb3d1af99ad77987f98bbdc/Images/Comparator.png)
+_Comparator module example_ 
+![preview](https://github.com/amandalong/amandalong/blob/bef47b979299c6d7cbb3d1af99ad77987f98bbdc/Images/Comparator.png)
 
 
 Welcome to the wonderful world of patching. The digital Sandin Max/MSP/Jitter patch is inspired by the analog modular video synthesizer by physicist, artist, and educator Dan Sandin. This patch remakes the invention in a program that mimics modules and patch cables. It celebrates the freedom of the IP in terms of the intellectual property too which Sandin firmly believes should be shared with the public. To learn more history, visit the dossier.
