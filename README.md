@@ -4,7 +4,7 @@ Digital representation of Sandin Image Processor in Max/MSP
 Watch the video "5 Minute Romp thru the IP" excerpt 3:52 min (1973) for inspiration.
 https://www.youtube.com/watch?v=8qh6jRzjmcY
 
-_Comparator module example_ 
+_Comparator module example_
 ![preview](https://github.com/amandalong/amandalong/blob/bef47b979299c6d7cbb3d1af99ad77987f98bbdc/Images/Comparator.png)
 
 
