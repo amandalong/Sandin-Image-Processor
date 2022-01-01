@@ -33,6 +33,7 @@ GREEN - oscillator signal (for automatically controlling knob values)
 BLUE - second video signal for mixing 
 
 VIDEO PLAYER, CAMERA and OSC will generate video signals. All other modules are effects, i.e. require a video signal input. To see the image a video signal has to be connected to MONITOR. Turn the dials to adjust the "voltage" and begin image processing.
+An example configuration: CAMERA + COMPARATOR + COLOR ENCODER -> MONITOR
 ![preview](https://github.com/amandalong/amandalong/blob/a2068c1302e812759f6e35bc0c8e2563866bcab4/Images/Sandin%20demo.mp4-low%20move%20the%20dials%20to%20adjust%20the%20%22voltage%22.gif)
 
 To connect modules together open the app, unulock it (padlock icon bottom left or CMD + E), click an output (bottom of the module) and drag the cord to an input (top of the module). 
