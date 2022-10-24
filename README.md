@@ -4,8 +4,6 @@ Digital representation of Sandin Image Processor in MaxMSPJitter
 Watch the video "5 Minute Romp thru the IP" excerpt 3:52 min (1973) for inspiration.
 https://www.youtube.com/watch?v=8qh6jRzjmcY
 
-Special thank to Dan Sandin
-
 
 _Comparator module example_                                                   
 ![preview](https://github.com/amandalong/amandalong/blob/bef47b979299c6d7cbb3d1af99ad77987f98bbdc/Images/Comparator.png) 
@@ -90,5 +88,8 @@ Now the OSC will generate signals when connected directly to the monitor; or whe
 # Record your own video and share
 ![preview](https://github.com/amandalong/amandalong/blob/85254732b372ce10712ec8245e966ca3918a77f1/Images/Comparator%20and%20Osc.png)
 
-Use the vizzie recorder to export your work. Share your work!
+Use the vizzie recorder to export your work. Share your work.
 
+# Aknowledgements
+
+Special thank to Dan Sandin for talking and sharing his work. Also to Dave Pape for the support to complete the project.
