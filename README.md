@@ -4,6 +4,9 @@ Digital representation of Sandin Image Processor in MaxMSPJitter
 Watch the video "5 Minute Romp thru the IP" excerpt 3:52 min (1973) for inspiration.
 https://www.youtube.com/watch?v=8qh6jRzjmcY
 
+Special thank to Dan Sandin
+
+
 _Comparator module example_                                                   
 ![preview](https://github.com/amandalong/amandalong/blob/bef47b979299c6d7cbb3d1af99ad77987f98bbdc/Images/Comparator.png) 
 
@@ -84,4 +87,8 @@ In the Audio Status set up make sure there is an input and output device set and
 When you return to the patch turn on the audio in the botton right hand corner, click on - the audio button will turn blue too.
 Now the OSC will generate signals when connected directly to the monitor; or when connected to other modules via the green input for automatized image processing. 
 
+# Record your own video and share
+![preview](https://github.com/amandalong/amandalong/blob/85254732b372ce10712ec8245e966ca3918a77f1/Images/Comparator%20and%20Osc.png)
+
+Use the vizzie recorder to export your work. Share your work!
 
