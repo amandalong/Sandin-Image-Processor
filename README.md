@@ -1,4 +1,4 @@
-# Sandin Image Processor
+# Digital Sandin Image Processor
 Digital representation of Sandin Image Processor in MaxMSPJitter
 
 Watch the video "5 Minute Romp thru the IP" excerpt 3:52 min (1973) for inspiration.
