@@ -91,4 +91,4 @@ Use the vizzie recorder to export your work. Share your work.
 
 # Aknowledgements
 
-Special thank to Dan Sandin for the inspiration and for sharing his work.
+Special thank to Dan Sandin for the inspiration and for sharing his work. Also Dave Pape was integral to the work, thank you. 
