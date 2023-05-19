@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 195.0, 87.0, 717.0, 885.0 ],
+		"rect" : [ 230.0, 161.0, 717.0, 885.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,7 +49,7 @@
 					"patching_rect" : [ 165.0, 19.5, 27.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[20]",
+							"parameter_longname" : "live.dial[21]",
 							"parameter_shortname" : "V",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -73,7 +73,7 @@
 					"patching_rect" : [ 98.5, 19.5, 27.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[19]",
+							"parameter_longname" : "live.dial[20]",
 							"parameter_shortname" : "V",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -143,8 +143,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 46.0, 590.0, 81.0, 22.0 ],
-					"text" : "param mix $1"
+					"patching_rect" : [ 46.0, 590.0, 90.0, 22.0 ],
+					"text" : "param mixC $1"
 				}
 
 			}
@@ -160,7 +160,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -237,8 +237,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 383.0, 164.0, 85.0, 22.0 ],
-									"text" : "param mix 0.5"
+									"patching_rect" : [ 383.0, 164.0, 93.0, 22.0 ],
+									"text" : "param mixC 0.5"
 								}
 
 							}
@@ -592,7 +592,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 20.5, 639.0, 30.0, 30.0 ]
 				}
 
